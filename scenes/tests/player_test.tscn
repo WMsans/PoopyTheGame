@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://baoahiphuu2x0"]
+
+[ext_resource type="PackedScene" uid="uid://p2f5pq35eu1v" path="res://prefabs/demo_floor.tscn" id="1_k31gn"]
+[ext_resource type="PackedScene" uid="uid://deuho88lpxdm4" path="res://prefabs/Player/player.tscn" id="2_lqete"]
+
+[node name="PlayerTest" type="Node2D"]
+
+[node name="DemoFloor" parent="." instance=ExtResource("1_k31gn")]
+position = Vector2(178, 198)
+
+[node name="DemoFloor2" parent="." instance=ExtResource("1_k31gn")]
+position = Vector2(491, 198)
+
+[node name="DemoFloor3" parent="." instance=ExtResource("1_k31gn")]
+position = Vector2(786, 156.99998)
+rotation = 2.8617573
+
+[node name="DemoFloor4" parent="." instance=ExtResource("1_k31gn")]
+position = Vector2(1017.00006, 235)
+rotation = 0.9265763
+
+[node name="DemoFloor5" parent="." instance=ExtResource("1_k31gn")]
+position = Vector2(1243, 419.00003)
+rotation = 0.4572869
+
+[node name="DemoFloor6" parent="." instance=ExtResource("1_k31gn")]
+position = Vector2(1537, 492)
+
+[node name="Player" parent="." instance=ExtResource("2_lqete")]
+position = Vector2(57, 153)
+Gravity = 100000.0
+Acceleration = 300.0
+Deceleration = 150.0
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
