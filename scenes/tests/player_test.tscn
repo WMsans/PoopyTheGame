@@ -12,24 +12,28 @@ position = Vector2(178, 198)
 position = Vector2(491, 198)
 
 [node name="DemoFloor3" parent="." instance=ExtResource("1_k31gn")]
-position = Vector2(786, 156.99998)
+position = Vector2(813, 153)
 rotation = 2.8617573
 
 [node name="DemoFloor4" parent="." instance=ExtResource("1_k31gn")]
-position = Vector2(1017.00006, 235)
+position = Vector2(1046, 230)
 rotation = 0.9265763
 
 [node name="DemoFloor5" parent="." instance=ExtResource("1_k31gn")]
-position = Vector2(1243, 419.00003)
-rotation = 0.4572869
+position = Vector2(1315.0001, 388.99997)
+rotation = 0.14131644
 
 [node name="DemoFloor6" parent="." instance=ExtResource("1_k31gn")]
-position = Vector2(1537, 492)
+position = Vector2(1641, 413)
 
 [node name="Player" parent="." instance=ExtResource("2_lqete")]
 position = Vector2(57, 153)
-Gravity = 100000.0
+Gravity = 60000.0
 Acceleration = 300.0
 Deceleration = 150.0
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
+
+[node name="DemoFloor7" parent="." instance=ExtResource("1_k31gn")]
+position = Vector2(1818, 269)
+rotation = 1.5320663

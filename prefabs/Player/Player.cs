@@ -37,8 +37,8 @@ public partial class Player : CharacterBody2D
             }
         }
 
-        var baseVector = Vector2.Right.Rotated(Rotation) * (float)_speed;
-        Velocity = baseVector.Rotated(Rotation) with { Y = (float)(Gravity * delta) };
+        var baseVector = Vector2.Right * (float)_speed;
+        Velocity = baseVector with { Y = (float)(Gravity * delta) };
         MoveAndSlide();
         var collision = GetLastSlideCollision();
         if (collision is not null)
