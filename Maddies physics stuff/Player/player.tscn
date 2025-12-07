@@ -1,0 +1,172 @@
+[gd_scene load_steps=24 format=3 uid="uid://bea558noe02pm"]
+
+[ext_resource type="Script" path="res://Maddies physics stuff/Player/player.gd" id="1_3r5ht"]
+[ext_resource type="Texture2D" uid="uid://c0wc67yvs5p1h" path="res://Maddies physics stuff/Player/amy sprites/amysprite idle.png" id="1_o5bf2"]
+[ext_resource type="Texture2D" uid="uid://d0usgnh7chljv" path="res://Maddies physics stuff/Player/amy sprites/amysprite idleanim1.png" id="3_7mn7l"]
+[ext_resource type="Texture2D" uid="uid://dhupgx38257y4" path="res://Maddies physics stuff/Player/amy sprites/amysprite idleanim2.png" id="4_6dukf"]
+[ext_resource type="Texture2D" uid="uid://de640yvkg8edm" path="res://Maddies physics stuff/Player/amy sprites/amysprite run1.png" id="5_2nq6e"]
+[ext_resource type="Texture2D" uid="uid://3hgdy6c4m55y" path="res://Maddies physics stuff/Player/amy sprites/amysprite jump1.png" id="5_anvxg"]
+[ext_resource type="Texture2D" uid="uid://dgigudgb6aqbb" path="res://Maddies physics stuff/Player/amy sprites/amysprite jump2.png" id="6_e5o7i"]
+[ext_resource type="Texture2D" uid="uid://b452lii43v71a" path="res://Maddies physics stuff/Player/amy sprites/amysprite run2.png" id="6_vccsv"]
+[ext_resource type="Texture2D" uid="uid://d3g76u2q3an3g" path="res://Maddies physics stuff/Player/amy sprites/amysprite jump3.png" id="7_g6d2x"]
+[ext_resource type="Texture2D" uid="uid://ftcfhq2pu67n" path="res://Maddies physics stuff/Player/amy sprites/amysprite run3.png" id="7_liniv"]
+[ext_resource type="Texture2D" uid="uid://2kom531hl0ct" path="res://Maddies physics stuff/Player/amy sprites/amysprite jump4.png" id="8_71mlk"]
+[ext_resource type="Texture2D" uid="uid://dkmixvm868rbb" path="res://Maddies physics stuff/Player/amy sprites/amysprite run4.png" id="8_djhgh"]
+[ext_resource type="Texture2D" uid="uid://c14r0cnbkuogn" path="res://Maddies physics stuff/Player/amy sprites/amysprite walk1.png" id="9_r5nsm"]
+[ext_resource type="Texture2D" uid="uid://c65spyktnc0qp" path="res://Maddies physics stuff/Player/amy sprites/amysprite jump5.png" id="9_ux075"]
+[ext_resource type="Texture2D" uid="uid://drans2q3vpka7" path="res://Maddies physics stuff/Player/amy sprites/amysprite walk2.png" id="10_0f47e"]
+[ext_resource type="Texture2D" uid="uid://bcrnnx3d8uiki" path="res://Maddies physics stuff/Player/amy sprites/amysprite walk3.png" id="11_w8m2k"]
+[ext_resource type="Texture2D" uid="uid://mxutpvbduxuc" path="res://Maddies physics stuff/Player/amy sprites/amysprite walk4.png" id="12_gm45b"]
+[ext_resource type="Texture2D" uid="uid://m5g850n4n2x2" path="res://Maddies physics stuff/Player/amy sprites/amysprite walk5.png" id="13_puhun"]
+[ext_resource type="Texture2D" uid="uid://ducva00e2rt8p" path="res://Maddies physics stuff/Player/amy sprites/amysprite walk6.png" id="14_3isno"]
+[ext_resource type="Texture2D" uid="uid://dthkctphsm3l5" path="res://Maddies physics stuff/Player/amy sprites/amysprite walk7.png" id="15_fsk58"]
+[ext_resource type="Texture2D" uid="uid://x2c83uh550wr" path="res://Maddies physics stuff/Player/amy sprites/amysprite walk8.png" id="16_mk6ac"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sxutr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_o5bf2")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_7mn7l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_6dukf")
+}],
+"loop": true,
+"name": &"idleanim",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_anvxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_g6d2x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_anvxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_71mlk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_anvxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_ux075")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_anvxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_e5o7i")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_2nq6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_vccsv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_liniv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_djhgh")
+}],
+"loop": true,
+"name": &"run",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_w8m2k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_gm45b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_puhun")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_3isno")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_fsk58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_mk6ac")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_r5nsm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_0f47e")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 10.0
+}]
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_b0vwk"]
+a = Vector2(0, -4.76837e-07)
+b = Vector2(0, -15)
+
+[node name="Player" type="CharacterBody2D"]
+floor_constant_speed = true
+floor_block_on_wall = false
+floor_max_angle = 1.55334
+floor_snap_length = 12.0
+safe_margin = 0.16
+script = ExtResource("1_3r5ht")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_sxutr")
+animation = &"idle"
+autoplay = "idle"
+offset = Vector2(0, -23.8)
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, -9.53674e-07)
+shape = SubResource("SegmentShape2D_b0vwk")
+
+[node name="Raycast" type="RayCast2D" parent="Collision"]
+position = Vector2(0, 9.53674e-07)
+target_position = Vector2(0, 4)
+
+[node name="WallCast" type="RayCast2D" parent="Collision"]
+position = Vector2(0, -9)
+target_position = Vector2(5, 0)
+hit_from_inside = true
+
+[node name="ControlLockTimer" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = true
+
+[node name="IdleTimer" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+
+[node name="JumpBufferTimer" type="Timer" parent="."]
+wait_time = 0.1
+one_shot = true
+
+[node name="CoyoteTimer" type="Timer" parent="."]
+wait_time = 0.2
+one_shot = true
+
+[connection signal="timeout" from="ControlLockTimer" to="." method="_on_control_lock_timer_timeout"]
+[connection signal="timeout" from="IdleTimer" to="." method="_on_idle_timer_timeout"]
+[connection signal="timeout" from="JumpBufferTimer" to="." method="_on_jump_buffer_timer_timeout"]
+[connection signal="timeout" from="CoyoteTimer" to="." method="_on_coyote_timer_timeout"]
