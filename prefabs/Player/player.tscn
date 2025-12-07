@@ -1,15 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://deuho88lpxdm4"]
+[gd_scene load_steps=2 format=3 uid="uid://deuho88lpxdm4"]
 
 [ext_resource type="Script" uid="uid://bt16aipk5wd3r" path="res://prefabs/Player/Player.cs" id="1_8e1wo"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_g8wir"]
-size = Vector2(40, 40)
-
-[node name="Player" type="CharacterBody2D"]
+[node name="Player" type="Node2D"]
 script = ExtResource("1_8e1wo")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("RectangleShape2D_g8wir")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 offset_left = -20.0
@@ -17,3 +11,5 @@ offset_top = -20.0
 offset_right = 20.0
 offset_bottom = 20.0
 color = Color(0.20881623, 0.24188685, 0.4505263, 1)
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
