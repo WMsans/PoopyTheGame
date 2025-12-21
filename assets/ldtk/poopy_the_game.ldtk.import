@@ -1,0 +1,37 @@
+[remap]
+
+importer="ldtk.import"
+type="PackedScene"
+uid="uid://k0bco3pry3la"
+path="res://.godot/imported/poopy_the_game.ldtk-125da50b557df087a516c898cc002c13.scn"
+
+[deps]
+
+files=["res://assets/ldtk/tilesets/tileset_16px.res", "res://assets/ldtk/levels/Level_0.scn", "res://.godot/imported/poopy_the_game.ldtk-125da50b557df087a516c898cc002c13.scn"]
+
+source_file="res://assets/ldtk/poopy_the_game.ldtk"
+dest_files=["res://.godot/imported/poopy_the_game.ldtk-125da50b557df087a516c898cc002c13.scn", "res://assets/ldtk/tilesets/tileset_16px.res", "res://assets/ldtk/levels/Level_0.scn", "res://.godot/imported/poopy_the_game.ldtk-125da50b557df087a516c898cc002c13.scn"]
+
+[params]
+
+World=""
+group_world_layers=false
+Level=""
+pack_levels=true
+Layer=""
+layers_always_visible=false
+Tileset=""
+tileset_custom_data=false
+integer_grid_tilesets=false
+atlas_texture_type=0
+Entity=""
+resolve_entityrefs=true
+use_entity_placeholders=false
+Post Import=""
+tileset_post_import=""
+entities_post_import=""
+level_post_import=""
+world_post_import=""
+Debug=""
+force_tileset_reimport=false
+verbose_output=false

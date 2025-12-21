@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://brp0hxr60iw2e"]
+
+[ext_resource type="PackedScene" uid="uid://k0bco3pry3la" path="res://assets/ldtk/poopy_the_game.ldtk" id="1_n5cjv"]
+[ext_resource type="PackedScene" uid="uid://bea558noe02pm" path="res://scenes/player.tscn" id="2_dn716"]
+
+[node name="LdtkTest" type="Node2D"]
+
+[node name="poopy_the_game" parent="." instance=ExtResource("1_n5cjv")]
+position = Vector2(1, 1)
+
+[node name="Player" parent="." instance=ExtResource("2_dn716")]
+position = Vector2(61, -25)
