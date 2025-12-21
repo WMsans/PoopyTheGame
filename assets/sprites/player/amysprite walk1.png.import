@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcrnnx3d8uiki"
-path="res://.godot/imported/amysprite walk3.png-169c21e7b8003f6b3531907715d610b0.ctex"
+uid="uid://c14r0cnbkuogn"
+path="res://.godot/imported/amysprite walk1.png-a19af4839ccad02eaba956a9c027e50f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Maddies physics stuff/Player/amy sprites/amysprite walk3.png"
-dest_files=["res://.godot/imported/amysprite walk3.png-169c21e7b8003f6b3531907715d610b0.ctex"]
+source_file="res://assets/sprites/player/amysprite walk1.png"
+dest_files=["res://.godot/imported/amysprite walk1.png-a19af4839ccad02eaba956a9c027e50f.ctex"]
 
 [params]
 
