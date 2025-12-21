@@ -18,6 +18,10 @@ config/icon="res://icon.svg"
 
 project/assembly_name="PoopyTheGame"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/ldtk-importer/plugin.cfg")
+
 [input]
 
 up={
